@@ -88,3 +88,11 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 SELECT show_time FROM movies WHERE title = 'Iron Man 2';
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 2';
 
+-- ## Extension
+
+-- 1.  Research how to delete multiple entries from your table in a single command.
+
+-- DELETE from 'table_name' WHERE 'enter conditon' 
+-- could be a condition that covers more than one entry in the table
+-- to delete entire table do not enter condition 
+-- if you want to delete a row from two interconnected tables you must create a delete statement for each row using common factor - i.e. ID
